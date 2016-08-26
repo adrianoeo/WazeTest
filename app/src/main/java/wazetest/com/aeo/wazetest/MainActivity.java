@@ -40,6 +40,5 @@ public class MainActivity extends AppCompatActivity {
                     new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.waze"));
             startActivity(intent);
         }
-
     }
 }
